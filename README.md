@@ -1,7 +1,7 @@
 # Controla tu casa usando un Bot de Telegram
 En el siguiente repositor se presenta el código fuente para control de luces usando un chatbot de Telegram y una placa MCU ESP32 o ESP8266 .
 
-![Demo1](Diagrama.jpg)
+![Esquema](Esquema.jpg)
 
 # Explicación en video:
 ....
