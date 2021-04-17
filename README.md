@@ -26,7 +26,9 @@ Si todo salió bien BotFather nos enviara un mensaje indicando cual es el nombre
 
 Ya tenemos nuestro API Token por lo que falta obtener el ChatID, para ello iremos a la página:
 
-// https://api.telegram.org/bot000000:000000000000/getUpdates en donde 000000:000000000000 es el API Token. 
+- https://api.telegram.org/bot000000:000000000000/getUpdates 
+
+en donde 000000:000000000000 es el API Token. 
 
 De estar todo OK nos abrirá un texto en formato JSON con un código 200 y la palabra OK.
 
