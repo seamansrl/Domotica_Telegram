@@ -1,4 +1,5 @@
-
+// EL PRESENTE FUENTE FUE DESARROLLADO POR SEAMAN SRL Y SE 
+// ENTREGA SIN GARANTIAS Y A MODO DE PRUEBA UNICAMENTE
 
 // Definimos las librerias a usar en el proyecto
 #ifdef ESP32
@@ -79,11 +80,11 @@ void handleNewMessages(int numNewMessages) {
     String from_name = bot.messages[i].from_name;
 
     if (text == "/start") {
-      String welcome = "Welcome, " + from_name + ".\n";
-      welcome += "Use the following commands to control your outputs.\n\n";
-      welcome += "/led_on to turn GPIO ON \n";
-      welcome += "/led_off to turn GPIO OFF \n";
-      welcome += "/state to request current GPIO state \n";
+      String welcome = "BIENVENIDO, " + from_name + ".\n";
+      welcome += "USE LOS SIGUIENTES COMANDOS PARA CONTROLAR SUS LUCES.\n\n";
+      welcome += "/prender_luz PARA PRENDER LA LUZ \n";
+      welcome += "/apagar_luz PARA APAGARLA \n";
+      welcome += "/estado PARA SABER EL ESTADO DE LA LUZ \n";
       bot.sendMessage(chat_id, welcome, "");
     }
 
@@ -99,7 +100,7 @@ void handleNewMessages(int numNewMessages) {
       digitalWrite(ledPin, ledState);
     }
     
-    if (text == "/state") {
+    if (text == "/estado") {
       if (digitalRead(ledPin)){
         bot.sendMessage(chat_id, "LA LUZ ESTA PRENDIDA", "");
       }
