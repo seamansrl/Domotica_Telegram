@@ -4,7 +4,7 @@ En el siguiente repositor se presenta el código fuente para control de luces us
 ![Esquema](Esquema.jpg)
 
 # Explicación en video:
-....
+https://youtu.be/PpsqJBTnZ_4
 
 # Elementos requeridos:
 - 1x ESP8266 (NodeMCU) o ESP32
