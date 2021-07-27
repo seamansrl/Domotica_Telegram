@@ -34,3 +34,11 @@ De estar todo OK nos abrirá un texto en formato JSON con un código 200 y la pa
 
 Ahora vamos al chat de Telegram en donde esta nuestro bot y escribiremos cualquier cosa, no importa el contenido del mensaje, es solo para actualizar el estatus del chat, hecho esto volveremos a la página antes abierta y daremos refrescar para ver que el JSON ahora es diferente, contiene más información, entre ella una clave llamada "ID": NUMERO DEL CHAT ID, siendo ese número el que deberemos incluir en el fuente a cargar en nuestra ESP8266 o ESP32.
 
+# Contactanos en:
+https://www.linkedin.com/company/35599193/admin/
+
+# Seguime en:
+https://www.linkedin.com/in/fernando-p-maniglia/
+
+# Conocenos más en:
+https://www.seamansrl.com.ar
